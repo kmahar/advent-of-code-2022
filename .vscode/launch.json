@@ -17,6 +17,42 @@
             "args": [],
             "cwd": "${workspaceFolder:advent-of-code-2022}",
             "preLaunchTask": "swift: Build Release advent-of-code-2022"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug day1",
+            "program": "${workspaceFolder:advent-of-code-2022}/.build/debug/day1",
+            "args": [],
+            "cwd": "${workspaceFolder:advent-of-code-2022}",
+            "preLaunchTask": "swift: Build Debug day1"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release day1",
+            "program": "${workspaceFolder:advent-of-code-2022}/.build/release/day1",
+            "args": [],
+            "cwd": "${workspaceFolder:advent-of-code-2022}",
+            "preLaunchTask": "swift: Build Release day1"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug day2",
+            "program": "${workspaceFolder:advent-of-code-2022}/.build/debug/day2",
+            "args": [],
+            "cwd": "${workspaceFolder:advent-of-code-2022}",
+            "preLaunchTask": "swift: Build Debug day2"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release day2",
+            "program": "${workspaceFolder:advent-of-code-2022}/.build/release/day2",
+            "args": [],
+            "cwd": "${workspaceFolder:advent-of-code-2022}",
+            "preLaunchTask": "swift: Build Release day2"
         }
     ]
 }
