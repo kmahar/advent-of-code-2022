@@ -24,7 +24,7 @@ class Node {
     }
 }
 
-let data = try Array(readLines(forDay: 7))
+let data = try readLines(forDay: 7)
 let root = Node(type: .directory(contents: [:]), parent: nil)
 
 // current path we are at; should always be a directory node
